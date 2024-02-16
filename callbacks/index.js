@@ -28,7 +28,7 @@ function goodbye() {
 }
 
 
-sum(displayPage, 1, 2);
+sum(displayConsole, 1, 2);
 
 function sum(callback, x, y) {
   let result = x + y;

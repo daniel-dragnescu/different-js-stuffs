@@ -47,7 +47,7 @@ console.log(parsedData);
 
 fetch("people.json")
   .then(response => response.json())
-  .then(values => values.forEach(value => console.log(value.isEmployed)))
+  .then(values => values.forEach(value => console.log(value.age)))
   .catch(error => console.error(error))
     
  
