@@ -45,7 +45,8 @@ function lowerCase(element, index, array) {
 }
 
 function capitalize(element, index, array) {
-  array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+  array[index] = element.charAt(0).toUpperCase() 
+  + element.slice(1);
 }
 
 function display(element) {
