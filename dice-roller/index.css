@@ -1,0 +1,32 @@
+#container {
+  font-family: arial;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(103, 103, 233);
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(98, 98, 174);
+}
+
+button:active {
+  background-color: blueviolet;
+}
+
+input {
+  font-size: 2rem;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+}
