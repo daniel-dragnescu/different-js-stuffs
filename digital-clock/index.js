@@ -1,7 +1,7 @@
 // DIGITAL CLOCK PROGRAM
 
 //padStart(2, 0) - for the first to characters, pad them with 0
-
+// for the first 2 digits, add a 0
 function updateClock(){
 
   const now = new Date();
