@@ -1,6 +1,8 @@
 // starts a timer you can use to track how long an operation
 // takes. Give each timer a unique name.
 // Great for identifying performance "bottlenecks"
+// bottleneck = parts of code where the performance is
+// slower than expected, causing delay.
 
 
 // start
