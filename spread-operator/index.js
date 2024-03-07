@@ -19,6 +19,8 @@ let fruits = ["apple", "orange", "banana"];
 let vegetables = ["carrots", "celery", "potatoes"];
 
 let foods = [...fruits, ...vegetables, "eggs", "milk"];
+// we insert fruits and veg arrays to the foods array,
+// but only the values and we get a new array with all elem.
 
 console.log(foods);
 
